@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #0275FF;
+    /* background-color: #0275FF; */
     color: #eef1ef;
     font-family: ‘Open Sans’, sans-serif;
     display: flex;
@@ -13,6 +13,10 @@ body {
     align-items: center;
         min-height: 100vh;
     padding: 25px;
+    background-image: url("keyboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
 
@@ -23,14 +27,14 @@ h2 {
 }
 
 .container {
-    background: #443850;
+    background: rgb(20, 20, 20, 0.9);
     padding: 15px;
     width: 350px;
     border-radius: 5px;
 }
 
 .result-container {
-    background: #243119;
+    background: rgba(70, 70, 70, 0.2);
     height: 50px;
     font-size: 18px;
     letter-spacing: 1px;
@@ -43,7 +47,7 @@ h2 {
 }
 
 .btn {
-    background: #0275ff;
+    background: #99bfdf;
     /* Removes the default button border */
     border: none;
     color: #eef1ef;
